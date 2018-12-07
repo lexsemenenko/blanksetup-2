@@ -5,7 +5,7 @@ npm-debug.log*
 
 # Site Build
 public/
-dist/
+# dist/
 
 # Dependency directories
 node_modules/

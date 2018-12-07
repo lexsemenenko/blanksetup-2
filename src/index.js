@@ -1,4 +1,4 @@
-console.log("Lex");
-
+import style from "./index.less";
 import { test } from "./test";
-console.log("Hello from Test");
+
+test();

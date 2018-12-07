@@ -1,5 +1,6 @@
 function test() {
-  return "Hey";
+  const message = "test function run";
+  console.log(message);
 }
 module.exports = {
   test
