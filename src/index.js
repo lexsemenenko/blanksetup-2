@@ -1,4 +1,6 @@
-import style from "./index.less";
-import { test } from "./test";
+// JS Goes here - ES6 supported
 
-test();
+import "./css/main.less";
+
+// Say hello
+console.log("🦊 Hello! Edit me in src/index.js");
