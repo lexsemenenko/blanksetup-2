@@ -8,7 +8,7 @@ log: false
 # logFile: 'hugo-debug.log'
 verbose: false
 verboseLog: false
-uglyURLs: true # make simple HTML files not directories
+uglyURLs: false # true - make simple HTML files not directories
 
 #=====================================
 
