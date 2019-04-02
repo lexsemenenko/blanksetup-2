@@ -3,7 +3,7 @@ const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const AssetsPlugin = require('assets-webpack-plugin');
-const lessLists = require('less-plugin-lists');
+const LessLists = require('less-plugin-lists');
 
 module.exports = {
   entry: {
@@ -53,7 +53,7 @@ module.exports = {
           {
             loader: 'less-loader',
             options: {
-              plugins: [new lessLists()],
+              plugins: [new LessLists()],
               strictMath: true,
             },
           },
